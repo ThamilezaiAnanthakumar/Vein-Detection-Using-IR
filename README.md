@@ -66,7 +66,7 @@ This project is designed to assist healthcare professionals by:
 
 ---
 👥 Contributors
-[Thamilezai Ananthakumar](https://github.com/ThamilezaiAnanthakumar)- Circuit Design , Documentation,Software Development & Code Integration
-[Name](GitHub URL)- Circuit Design & PCB Design & Soldering & Testing
-Alice Johnson - Circuit Design & Enclosure Design
+- [Thamilezai Ananthakumar](https://github.com/ThamilezaiAnanthakumar)- Circuit Design , Documentation,Software Development & Code Integration
+- [Dayananthan](https://github.com/Dayananthan2021)- Circuit Design & PCB Design & Soldering & Testing
+- [Imesh Abeysinghe](Git hub)- Circuit Design & Enclosure Design
 
