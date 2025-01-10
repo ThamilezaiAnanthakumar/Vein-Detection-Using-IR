@@ -1,7 +1,3 @@
-
-
----  
-
 # Vein Detection System  
 
 Enhancing vein detection for healthcare professionals with an efficient and accessible device.  
@@ -69,3 +65,8 @@ This project is designed to assist healthcare professionals by:
 - Enhancing the accuracy of procedures like blood draws and cannulation.  
 
 ---
+👥 Contributors
+[Thamilezai Ananthakumar](GitHub URL)- Circuit Design , Documentation,Software Development & Code Integration
+[Name](GitHub URL)- Circuit Design & PCB Design & Soldering & Testing
+Alice Johnson - Circuit Design & Enclosure Design
+
