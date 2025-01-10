@@ -1,28 +1,71 @@
-This repository contains all the resources and files related to our vein detection system project. The system is designed to enhance the ease of vein detection, improving efficiency for healthcare professionals and nurses during procedures like blood draws and cannulation.
 
-Included Files:
-Code Files: Arduino code for controlling the TFT display.
-PCB Files: Schematic and PCB layout design files, detailing the hardware setup and connections.
-Enclosure Files: 3D model and design files for the physical enclosure of the device.
-Final Report: Comprehensive documentation covering:
-Project objectives and design diagrams.
-Simulation and testing methodologies.
-Results and resource optimization strategies.
-Contributions of team members.
-Instructions for practical operation.
-How It Works
-The system uses an ESP32-CAM module to capture real-time images, which are streamed wirelessly to a browser via Wi-Fi. This enables users to detect veins with ease. The project employs the built-in ESP32 camera web server code for live streaming and incorporates a circular LED array to enhance visibility.
 
-Why We Chose the ESP32-CAM
-For our second-semester project, we used the ESP32-CAM module due to restrictions that required us to design a custom PCB and handle soldering. While this approach allowed us to meet the project requirements, it came with a tradeoff: the image quality of the ESP32-CAM is relatively low.
+---  
 
-Future Improvements
-To enhance the system, we propose replacing the ESP32-CAM with a Raspberry Pi and a NoIR Raspberry Pi Camera. This combination would provide higher image quality, enabling better vein detection. By applying advanced image processing techniques such as edge detection, veins can be made more visible and clearly outlined, significantly improving the system's effectiveness.
+# Vein Detection System  
 
-Key Components
-ESP32-CAM Module: Captures and streams real-time images.
-Circular LED Array: Enhances vein visibility in captured images.
-ESP32 Camera Web Server: Provides a wireless interface for live streaming.
-Purpose
-This project aims to assist healthcare professionals by making vein detection more efficient and accessible, ultimately improving patient care.
+Enhancing vein detection for healthcare professionals with an efficient and accessible device.  
 
+---  
+
+## 📂 Repository Overview  
+
+This repository contains all the resources and files related to our vein detection system project.  
+
+### **Included Files**  
+- **Code Files**: Arduino code for controlling the TFT display.  
+- **PCB Files**: Schematic and PCB layout designs detailing hardware connections.  
+- **Enclosure Files**: 3D models and designs for the physical enclosure.  
+- **Final Report**: Comprehensive documentation including:  
+  - Project objectives and design diagrams.  
+  - Simulation and testing methodologies.  
+  - Results and resource optimization strategies.  
+  - Team contributions.  
+  - Practical operation instructions.  
+
+---  
+
+## 🛠️ How It Works  
+
+- The system uses an **ESP32-CAM module** to capture real-time images.  
+- Images are streamed wirelessly to a browser via Wi-Fi.  
+- A **circular LED array** enhances visibility for detecting veins.  
+- The built-in **ESP32 camera web server** enables live streaming.  
+
+---
+
+## 💡 Why We Chose the ESP32-CAM  
+
+For this project, we opted for the **ESP32-CAM module** due to second-semester restrictions requiring:  
+- Custom PCB design.  
+- Soldering for the hardware setup.  
+
+This approach fulfilled the requirements but resulted in lower image quality, a limitation we plan to address in future iterations.  
+
+---
+
+## 🚀 Future Improvements  
+
+To improve the system, we propose:  
+1. **Using a Raspberry Pi and NoIR Camera** for better image quality.  
+2. **Applying Edge Detection Techniques** to clearly outline veins.  
+
+These enhancements would significantly improve the clarity and usability of the system.  
+
+---
+
+## 🔑 Key Components  
+
+- **ESP32-CAM Module**: Captures and streams real-time images.  
+- **Circular LED Array**: Improves vein visibility.  
+- **ESP32 Camera Web Server**: Provides a wireless interface for live streaming.  
+
+---
+
+## 🎯 Project Purpose  
+
+This project is designed to assist healthcare professionals by:  
+- Making vein detection more efficient.  
+- Enhancing the accuracy of procedures like blood draws and cannulation.  
+
+---
